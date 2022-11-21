@@ -1,0 +1,9 @@
+//MULTIPLICATION OF TWO NUMBERS
+a=int(input())
+b=int(input())
+c=a*B
+print(c)
+//OUTPUT
+8
+2
+16
