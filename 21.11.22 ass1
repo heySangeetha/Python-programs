@@ -1,0 +1,9 @@
+//ADDING TWO NUMBERS
+a=int(input())
+b=int(input())
+c=a+b
+print(c)
+//OUTPUT
+7
+8
+15
