@@ -1,0 +1,9 @@
+//DIVISION OF TWO NUMBERS
+a=int(input())
+b=int(input())
+c=a%b
+print(c)
+//OUTPUT
+12
+5
+2
