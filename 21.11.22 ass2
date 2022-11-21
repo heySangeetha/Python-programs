@@ -1,0 +1,9 @@
+//SUBTRACTION OF TWO NUMBERS
+a=int(input())
+b=int(input())
+c=a-b
+print(c)
+//OUTPUT
+8
+6
+2
