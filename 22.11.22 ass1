@@ -1,0 +1,31 @@
+// reading and printing student details
+rno=int(input('enter student no:'))
+name=input('enter name:')
+gender=input('enter gender:')
+phno=int(input('enter phone number:'))
+address=input('enter address:')
+group=input('enter group:')
+percentage=input('enter degree percentage:')
+print('Roll No:',rno)
+print('Name:',name)
+print('Gender:',gender)
+print('Phone Number:',phno)
+print('Address:',address)
+print('Group:',group)
+print('Degree Percentage:',percentage)
+//Output
+enter student no:03
+enter name:sangeetha
+enter gender:Female
+enter phone number:9876543210
+enter address:Kakinada
+enter group:Mstcs
+enter degree percentage:95
+Roll No: 3
+Name: sangeetha
+Gender: Female
+Phone Number: 9876543210
+Address: Kakinada
+Group: Mstcs
+Degree Percentage: 95
+
