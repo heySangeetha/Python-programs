@@ -1,0 +1,12 @@
+//Calculating EMI
+p=int(input('Amount:'))
+t=int(input('Time period:'))
+r=float(input('Rate of interest:'))
+si=(p*t*r)/100
+emi=(si+p)/(t*12)
+print('EMI:',emi)        
+//Output
+Amount:150000
+Time period:2
+Rate of interest:3.2
+EMI: 6650.0
