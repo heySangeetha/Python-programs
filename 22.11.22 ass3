@@ -1,0 +1,13 @@
+//Swapping 
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+a=a+b
+b=a-b
+a=a-b
+print('After swapping --->')
+print('a value=',a,'b value=',b)
+//Output
+enter a:12
+enter b:36
+After swapping --->
+a value= 36 b value= 12
