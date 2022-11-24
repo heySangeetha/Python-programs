@@ -1,0 +1,13 @@
+rno=int(input('enter student no:'))
+name=input('enter name:')
+group=input('enter group;')
+s1=int(input())
+s2=int(input())
+s3=int(input())
+print('Roll No:',rno)
+print('Name:',name)
+print('Group:',group)
+if s1>=35 and s2>=35 and s3>=35:
+    print('PASS')
+else:
+    print('FAIL')
