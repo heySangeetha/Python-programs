@@ -1,0 +1,34 @@
+empname=input()
+empdesi=input()
+bs=int(input())
+da=int(input())
+ta=int(input())
+hra=int(input())
+net=bs+da+ta+hra
+print('EMPLOYEE NAME:',empname)
+print('EMPLOYEE DESIGNATION:',empdesi)
+if net>100000:
+    tax=(net*10)/100
+    print('TAX:',tax)
+elif net>50000:
+    tax=(net*7)/100
+    print('TAX:',tax)
+elif net>40000:
+    tax=(net*4)/100
+    print('TAX:',tax)
+elif net>20000:
+    tax=(net*2)/100
+    print('TAX:',tax)
+else:
+    print('NO TAX')
+    
+OUTPUT:
+Radha
+Senior Accountant
+30000
+2000
+2500
+1000
+EMPLOYEE NAME: Radha
+EMPLOYEE DESIGNATION: Senior Accountant
+TAX: 710.0
