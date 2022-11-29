@@ -1,0 +1,26 @@
+n=input()
+r=int(input())
+g=input()
+s1=int(input())
+s2=int(input())
+s3=int(input())
+print('NAME:',n)
+print('ROLL NO:',r)
+print('GROUP:',g)
+print
+if s1>=35 and s2>=35 and s3>=35:
+    print('RESULT: PASS')
+else:
+    print('RESULT: FAIL')
+   
+OUTPUT:
+Prem
+5
+DtSC
+50
+37
+32
+NAME: Prem
+ROLL NO: 5
+GROUP: DtSC
+RESULT: FAIL  
